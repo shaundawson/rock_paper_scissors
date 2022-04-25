@@ -3,6 +3,12 @@
 A classic game - Rock, Paper, Scissors! Choose one of the three choices - and see if you can beat the computer.
 Will you win? The chance is random!
 
+Rock wins against scissors.
+Scissors win against paper.
+Paper wins against rock.
+
+You can find the "official" rules of the game on the World Rock Paper Scissors Association website.
+https://wrpsa.com/the-official-rules-of-rock-paper-scissors
 
 Python Day 4: Randomization and Python Lists
 https://replit.com/@ShaunDawson/day-4-rock-paper-scissors#main.py
