@@ -18,3 +18,6 @@ https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/rand
 
 Python Random Module
 https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
+Python Data Structures
+https://docs.python.org/3/tutorial/datastructures.html
