@@ -11,6 +11,7 @@ You can find the "official" rules of the game on the World Rock Paper Scissors A
 https://wrpsa.com/the-official-rules-of-rock-paper-scissors
 
 Python Day 4: Randomization and Python Lists
+Solution: 
 https://replit.com/@ShaunDawson/day-4-rock-paper-scissors#main.py
 
 
