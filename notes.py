@@ -54,6 +54,10 @@ names = names_string.split(", ")
 # print(names)
 
 # print(len(names))
-random_index = random.randint(0,len(names)-1)
-payer = names[random_index]
+# random_index = random.randint(0,len(names)-1)
+# payer = names[random_index]
+# print(f"{payer} is going to buy the meal today!")
+
+# Solution Using random.choice
+payer = random.choice(names)
 print(f"{payer} is going to buy the meal today!")
