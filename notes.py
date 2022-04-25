@@ -73,8 +73,37 @@ import random
 
 # dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
 
-fruits = ["Strawberries", "Nectarines", "Spinach", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
-vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+# fruits = ["Strawberries", "Nectarines", "Spinach", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
-dirty_dozen = [fruits, vegetables]
-print(dirty_dozen)
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen)
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen[1][2])
+
+
+# TREASURE MAP EXERCISE
+# Write a program that will mark a spot with an X with a two-digit system. The first digit is the vertical column number and the second digit is the horizontal row number
+
+
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+
+# Take the user input and convert to usable format
+# Convert first digit to column position
+horizontal = int(position[0])
+# Convert second digit to row position
+vertical= int(position[1]) 
+
+# Update nested list with a "X"
+selected_row = map[vertical-1]
+selected_row[horizontal -1] = "X"
+
+print(f"{row1}\n{row2}\n{row3}")
